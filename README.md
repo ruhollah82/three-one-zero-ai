@@ -1,50 +1,63 @@
-# React + TypeScript + Vite
+# 310 AI Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a copy website of 310.ai, a company focused on building a generative AI engine to make programmable biology a reality. The website showcases key features like AI-powered video galleries, hero sections with videos, and an intuitive navigation layout.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Technologies Used](#technologies-used)
+- [Project Setup](#project-setup)
+- [Development](#development)
+- [Build](#build)
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **React**: JavaScript library for building user interfaces.
+- **TypeScript**: A superset of JavaScript that adds type safety and other features.
+- **Vite**: A fast build tool and development server.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **Video Elements**: HTML5 video player for showcasing dynamic content.
 
-- Configure the top-level `parserOptions` property like this:
+## Project Setup
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+To get started with the project, you need to clone the repository and install the dependencies.
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/ruhollah82/three-one-zero-ai.git
+cd three-one-zero-ai
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### 2. Install dependencies
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+npm install
 ```
+
+This will install all the necessary dependencies for the project, including React, TypeScript, Vite, and Tailwind CSS.
+
+## Development
+
+Once the dependencies are installed, you can run the development server locally.
+
+### Start Development Server
+
+```bash
+npm run dev
+```
+
+This will start the Vite development server, and you can access the app at [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Build
+
+To build the app for production, run the following command:
+
+```bash
+npm run build
+```
+
+This will generate a `dist/` directory with the optimized production build.
+
+---
+
+Made with 💙
