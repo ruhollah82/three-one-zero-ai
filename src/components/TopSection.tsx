@@ -4,7 +4,7 @@ import HeroSection from "./Title/HeroSection";
 
 const TopSection = () => {
   return (
-    <div className="bg-black h-screen w-[100%] gap-2 pt-2 pr-36 pl-36">
+    <div className="bg-black h-screen gap-2 pt-2 pr-36 pl-36">
       <Header />
       <HeroSection />
       <VideoGallery />

@@ -2,7 +2,7 @@ import React from "react";
 
 const MainContent: React.FC = () => {
   return (
-    <section className="container grid grid-cols-1 items-center gap-10  md:grid-cols-2 md:gap-y-20 h-screen w-[100vw] mt-10 pt-2 pr-36 pl-36 text-white ">
+    <section className="container grid grid-cols-1 items-center gap-[20%]  md:grid-cols-2 md:gap-y-20 h-screen w-[100%] mt-10 pt-2 px-16 text-white mx-auto">
       {/* Left Column */}
       <div className="flex flex-col items-start">
         <h2 className="max-w-md font-secondary text-2xl font-medium md:text-4xl">
